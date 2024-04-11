@@ -1,0 +1,413 @@
+/* src/LandingPage.css */
+
+/* Estilo do título */
+.header h1 {
+  margin-top: 100px; /* Espaço extra acima do título */
+  text-align: center; /* Centralizar o texto */
+  font-size: 100px; /* Aumentar o tamanho do texto */
+}
+
+.slogan{
+  color: #444444;
+}
+
+/* src/LandingPage.css */
+
+/* Estilo dos links no header */
+.header nav {
+  text-align: center; /* Centralizar os links */
+  margin-bottom: 10px; /* Espaço abaixo dos links */
+}
+
+.header nav a {
+  margin: 0 40px; /* Espaçamento médio entre os links */
+  text-decoration: none; /* Remover sublinhado */
+  color: #333; /* Cor dos links */
+}
+
+.header nav a:hover {
+  color: #007bff; /* Cor dos links no hover */
+}
+
+/* Estilo dos botões */
+.header .login-btn {
+  display: block; /* Transformar em bloco para centralizar */
+  margin: 20px auto 0; /* Margem em cima e centralizado horizontalmente */
+}
+
+/* Estilos dos boxes no footer */
+.footer-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1200px;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+
+.footer-box:hover{
+
+  background-image: linear-gradient(35deg, #feffbf, #ffffff); /* Gradiente de cores */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  border-color: #ffd900; /* Cor da borda ao passar o mouse */
+  transform: scale(1.05); /* Efeito de escala para "pop-up" */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  
+  
+}
+
+.footer-box {
+  width: calc(33.33% - 20px); /* 3 colunas com espaçamento entre elas */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 30px; /* Espaçamento entre as caixas */
+  height: 300px;
+  border: 2px solid transparent; /* Borda inicial transparente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer-box:last-child {
+  margin-right: 0; /* Remover espaçamento à direita da última caixa */
+}
+
+.footer-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-box p {
+  line-height: 1.6;
+}
+
+.footer-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-box li {
+  margin-bottom: 5px;
+}
+
+/* Estilizando o formulário dentro do box */
+.footer-box form {
+  margin-top: 20px;
+}
+
+.footer-box form input,
+.footer-box form textarea,
+.footer-box form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.footer-box form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-box form button:hover {
+  background-color: #0056b3; /* Azul escuro para hover */
+}
+
+/* src/LandingPage.css */
+
+/* src/LandingPage.css */
+
+.slogan {
+  font-size: 24px; /* Tamanho da fonte */
+  line-height: 1.2; /* Espaçamento entre as linhas */
+  font-family: Arial, sans-serif; /* Mudança para Arial como primeira opção */
+}
+
+
+.slogan-cursive {
+  font-family: Arial, sans-serif; /* Fonte Cursive seguida de uma fonte de backup genérica */
+}
+
+
+/* src/LandingPage.css */
+
+/* src/LandingPage.css */
+
+.main-title {
+  font-size: 48px; /* Tamanho do texto aumentado */
+  font-weight: bold; /* Texto em negrito */
+}
+
+.main-title span {
+  color: rgb(252, 218, 29); /* Amarelo para a primeira parte do texto */
+}
+
+.main-title em {
+  color: green; /* Verde para a segunda parte do texto */
+}
+
+/* src/LandingPage.css */
+
+body {
+  margin: 0; /* Remover margens padrão do corpo */
+  padding: 0; /* Remover preenchimento padrão do corpo */
+  background-image: url('C:\Users\Junior\Desktop\N1reactalien\N1react\N1react\MyProject\public\images\bela-natureza-retro-com-campo.jpg'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Cobrir toda a tela */
+  background-position: center; /* Centralizar a imagem */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  color: #313131; /* Cor do texto */
+  /* Adicionando filtro de brilho */
+  filter: brightness(0.95); /* Valor entre 0 e 1 para reduzir o brilho */
+}
+
+/* Restante dos estilos conforme necessário */
+.link-branco {
+  color: #ffffff; /* Código hexadecimal para a cor branca */
+}
+
+/* CSS */
+.footer-box {
+  position: relative;
+}
+
+.footer-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url('C:\Users\Junior\Desktop\N1reactalien\N1react\N1react\MyProject\public\images\flecha.png'); /* Substitua 'caminho/para/seta.png' pelo caminho real da sua imagem de seta */
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* src/LandingPage.css */
+
+.login-btn {
+  position: absolute; /* Fixar o botão na tela */
+  top: 40px; /* Distância do topo */
+  right: 20px; /* Distância da direita */
+  background-image: linear-gradient(35deg, #feffbf, #ffffff);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.144);
+  padding: 6px 12px; /* Tamanho do botão */
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 1000; /* Garantir que o botão fique sobre outros elementos */
+}
+
+.login-btn:hover {
+  background-color: #fff06c;
+  border-radius: 4px;
+  border: 1px solid #fffb29;
+  transform: scale(1.05);
+}
+
+/* src/LandingPage.css */
+
+/* src/LandingPage.css */
+
+.logo-icon {
+  width: 90px; /* Largura do ícone */
+  height: 90px; /* Altura do ícone */
+  margin-right: 5px; /* Espaçamento à direita do ícone */
+}
+
+.header nav {
+  position: relative; /* Para que a posição absoluta do ícone funcione */
+}
+
+.logo-icon {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  left: 20px; /* Ajuste a posição horizontal do ícone conforme necessário */
+}
+
+/* Restante dos estilos conforme necessário */
+
+/* src/LandingPage.css */
+
+/* Estilo dos boxes no footer */
+.footer-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1200px;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.footer-box:hover {
+  background-image: linear-gradient(35deg, #feffbf, #ffffff);
+  cursor: pointer;
+  border-color: #ffd900;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.footer-box {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  height: 300px;
+  border: 2px solid transparent;
+}
+
+.footer-box:last-child {
+  margin-right: 0;
+}
+
+.footer-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-box p {
+  line-height: 1.6;
+}
+
+.footer-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-box li {
+  margin-bottom: 5px;
+}
+
+.footer-box form {
+  margin-top: 20px;
+}
+
+.footer-box form input,
+.footer-box form textarea,
+.footer-box form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.footer-box form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-box form button:hover {
+  background-color: #0056b3;
+}
+
+/* LandingPage.css */
+
+/* LandingPage.css */
+
+/* Remover margens padrão do corpo da página */
+/* LandingPage.css */
+
+/* Remover margens padrão do corpo da página */
+body, html {
+  margin: 0;
+}
+
+.landing-page {
+  /* Estilos para a página inteira */
+}
+
+/* Estilos para o retângulo branco no final da página */
+.retangulo-branco {
+  background-color: white; /* Cor de fundo branca */
+  padding: 20px; /* Espaçamento interno */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 3000px; /* Largura máxima do retângulo */
+  box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+
+/* Estilos para as seções adicionais dentro do retângulo branco */
+.extra-section {
+  margin-bottom: 20px; /* Margem inferior para separar as seções */
+}
+
+/* Estilize os títulos e parágrafos das seções conforme necessário */
+.extra-section h2 {
+  font-size: 20px; /* Tamanho do título */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.extra-section p {
+  font-size: 16px; /* Tamanho do texto */
+  line-height: 1.5; /* Altura da linha para melhor legibilidade */
+}
+
+.footer-final {
+  background-color: #c0c0c044; /* Cor de fundo branca */
+  position: absolute; /* Posição absoluta para preencher a tela */
+  bottom: -215px; /* Colocar no rodapé da página com um pequeno deslocamento para baixo */
+  left: 0; /* Alinhar à esquerda */
+  width: 100%; /* Preencher horizontalmente */
+  height: 215px; /* Altura do footer final */
+  display: flex; /* Usar flexbox para organizar os itens */
+  justify-content: center; /* Centralizar itens na horizontal */
+  align-items: center; /* Centralizar itens na vertical */
+}
+
+.footer-container {
+  width: 80%; /* Largura do container */
+  display: flex; /* Usar flexbox para organizar os itens */
+  justify-content: space-around; /* Espaço igual entre os itens */
+  align-items: center; /* Centralizar itens na vertical */
+}
+
+.footer-column {
+  flex: 1; /* Crescer e ocupar espaço igual */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Alinhar texto ao centro */
+}
+
+.footer-column h3 {
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.footer-column ul {
+  list-style-type: none; /* Remover marcadores de lista */
+  padding: 0; /* Remover espaçamento interno */
+}
+
+.footer-column ul li {
+  margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+.footer-column a {
+  text-decoration: none; /* Remover sublinhado */
+  color: #333; /* Cor do texto */
+}
+
+.footer-column a:hover {
+  color: #777; /* Cor do texto ao passar o mouse */
+}
+
+.footer-column p {
+  margin: 5px 0; /* Espaçamento interno */
+}
+
+.footer-final .copyright {
+  text-align: center; /* Alinhar ao centro */
+  margin-top: 20px; /* Espaçamento superior */
+}
